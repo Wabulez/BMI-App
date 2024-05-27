@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BMI Calculator Application</string>
+    <string name="Gender">Gender</string>
+    <string name="Height">Height:</string>
+    <string name="Weight">Weight:</string>
+    <string name="Button_Text1">Male</string>
+    <string name="Button_Text2">Female</string>
+    <string name="Info">Body mass index, or BMI, is used to determine whether you are in a healthy weight range for your height.</string>
+    <string name="Info_2">* A proper Mathematical formula is used to calculate BMI in an individual. \nThis Application will perform the calculations and give you accurate results in seconds</string>
+    <string name="Loading">Loading</string>
+    <string name="Underweight">Underweight: BMI is less than 18.5.</string>
+    <string name="Normal">Normal weight: BMI is 18.5 to 24.9.</string>
+    <string name="Overweight">Overweight: BMI is 25 to 29.9.</string>
+    <string name="Obese">Obese: BMI is 30 or more.</string>
+    <string name="title_activity_ad">AdActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="What_Is_BMI">Body Mass Index (BMI) is a measurement of a person’s weight with respect to his or her height. It is more of an indicator than a direct measurement of a person’s total body fat.\nBMI, more often than not, correlates with total body fat. This means that as the BMI score increases, so does a person’s total body fat.</string>
+    <string name="How_It_Works">BMI in an individual is calculated by the use of a mathematical formula.\n\n The formula is - BMI = (Weight in kilograms) divided by (Height in metres squared) \n\nThis application will quickly do all the calculations for you so that you can easily find out the BMI of all of your friends and family alike : )</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-8528184830344634/5155938852</string>
+    <string name="App_ID">ca-app-pub-8528184830344634~4609143942</string>
+</resources>

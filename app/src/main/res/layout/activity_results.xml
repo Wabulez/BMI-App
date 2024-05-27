@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/Background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:id="@+id/GoBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:onClick="GoBack"
+                android:background="@drawable/rounded_button1"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:text="Results:"
+                android:fontFamily="@font/american_captain"
+                android:textColor="@color/ResPage_Title"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/Layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Gender"
+                        android:fontFamily="@font/american_captain"
+                        android:textStyle="bold|italic"
+                        android:gravity="center"
+                        android:textSize="40sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/EnteredAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Age will come here"
+                        android:fontFamily="@font/american_captain"
+                        android:textStyle="italic|bold"
+                        android:gravity="center"
+                        android:textColor="@color/ResultText_colour"
+                        android:textSize="30sp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/BMITitle"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="BMI:"
+                            android:fontFamily="@font/american_captain"
+                            android:textSize="30sp"
+                            android:textStyle="bold|italic"
+                            android:textColor="@color/ResultText_colour"
+                            android:layout_marginLeft="30dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fat Percentage: "
+                            android:textColor="@color/ResultText_colour"
+                            android:fontFamily="@font/american_captain"
+                            android:textStyle="bold|italic"
+                            android:textSize="30sp"
+                            android:gravity="right"
+                            android:layout_marginRight="30dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/BMI"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="BMI will come here"
+                            android:fontFamily="@font/american_captain"
+                            android:layout_marginLeft="30dp"
+                            android:textStyle="italic|bold"
+                            android:textSize="20sp"
+                            android:textColor="@color/ResultText_colour"
+                            android:layout_marginBottom="10dp"/>
+
+                        <TextView
+                            android:id="@+id/FatPercentage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No will come here"
+                            android:gravity="right"
+                            android:layout_marginRight="30dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/ResultText_colour"
+                            android:fontFamily="@font/american_captain"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:src="@drawable/bmi_chart" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Underweight"
+                        android:textSize="15sp"
+                        android:textColor="@color/Underweight"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Normal"
+                        android:textSize="15sp"
+                        android:textColor="@color/Normal"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Overweight"
+                        android:textSize="15sp"
+                        android:textColor="@color/Overweight"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Obese"
+                        android:textColor="@color/Obese"
+                        android:textSize="15sp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advice based off of the results: "
+                        android:gravity="center"
+                        android:textColor="@color/ResultText_colour"
+                        android:fontFamily="@font/american_captain"
+                        android:textSize="20sp"
+                        android:textStyle="italic"
+                        android:layout_marginTop="30dp"/>
+
+                    <TextView
+                        android:id="@+id/Advice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Advice will come here"
+                        android:gravity="left"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="italic"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center|bottom">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

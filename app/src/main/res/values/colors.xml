@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Title_Colour">#FFFFFF</color>
+    <color name="Background_Colour">#FFFFFF</color>
+    <color name="Bar_Colour">#FFFFFF</color>
+    <color name="Info_text1">#8B8B8B</color>
+    <color name="Info_Colour">#FFFFFF</color>
+    <color name="Button_Text">#E72F0F</color>
+    <color name="Bar_Progress">#FFFFFF</color>
+    <color name="Background_Colour_Login">#DBDBDB</color>
+    <color name="Button_Text_Login">#FFFFFF</color>
+    <color name="ResPage_Title">#E72F0F</color>
+    <color name="ResultText_colour">#000000</color>
+    <color name="ButtonOnclick_colour">#E72F0F</color>
+    <color name="Underweight">#4DCCF3</color>
+    <color name="Normal">#34A449</color>
+    <color name="Overweight">#F2C815</color>
+    <color name="Obese">#D72402</color>
+    <color name="ResultPage_Text_Female">#673AB7</color>
+    <color name="Main_ResultBackground">#E4E4E4</color>
+    <color name="PopupTitle_TextColour">#000000</color>
+</resources>
